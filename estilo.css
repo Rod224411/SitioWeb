@@ -1,0 +1,203 @@
+.inicio{
+    background-image: url(fondoinicio.jpg);
+    background-attachment: fixed;
+    color: aliceblue;
+}
+header{
+    position:fixed;
+    width: 100%;
+    background-color: rgb(54, 53, 53);
+}
+@font-face {
+font-family: Sanseriffic;
+src: url('.Fuentes/Sanseriffic.otf');
+}
+body{
+    font-family: Sanseriffic;
+}
+.inicio{
+    padding-bottom: 200px !important;
+    text-align: center;
+    padding-top: 200px;
+}
+#acerca_de_mi h1,h5{
+    text-align: center;
+}
+img.foto{
+    width: 150px;
+    height: 150px;
+}
+#acerca_de_mi .columnasinfo{
+    display: flex;
+}
+#acerca_de_mi .columnasinfo .columna_izquierda, .columna_derecha{
+    margin-left: 225px;
+}
+#acerca_de_mi .columnasinfo .columna_izquierda li{
+    line-height:35px;
+}
+#acerca_de_mi .columnasinfo .columna_derecha .progress{
+    width: 300px;    
+}
+#acerca_de_mi .columnasinfo .columna_derecha strong{
+    line-height:35px;  
+}
+#acerca_de_mi .foto_presentacion{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+#acerca_de_mi ul{
+    list-style: none;
+    text-align: left;
+}
+
+#acerca_de_mi h1{
+    padding-bottom: 50px;
+}
+#acerca_de_mi{
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* SECCION CURSOS */
+#Cursos{
+
+    background-color: rgb(222, 224, 228);
+    margin-top: 60px;
+}
+#Cursos .columnaizqcurso2{
+    width: 200px;
+}
+#Cursos .columnaizqcurso3, .columnaizqcurso4{
+    width: 200px;
+}
+#Cursos .columnasprof1 .columnadercurso1 .lista1{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+}
+#Cursos .columnasprof4 .columnadercurso4 .lista4{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+}
+#Cursos .columnasprof3 .columnadercurso3 .lista3{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+}
+#Cursos .columnasprof1 .columnadercurso1{
+    text-align: center;
+    width: 50%;
+}
+#Cursos .columnasprof4 .columnadercurso4{
+    text-align: center;
+    width: 50%;
+}
+#Cursos .columnasprof3 .columnadercurso3{
+    text-align: center;
+    width: 50%;
+}
+
+#Cursos .columnasprof1 .columnadercurso1 a{
+    margin-top: 30px;
+
+ }
+
+ #Cursos .columnasprof4 .columnadercurso4 a{
+    margin-top: 30px;
+
+ }
+
+ #Cursos .columnasprof2 .columnadercurso2, .columnasprof1 .columnadercurso1{
+    text-align: center;
+    width:50%;
+ }
+ 
+ #Cursos .columnasprof2 .columnadercurso2 .lista2{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+ }
+ #Cursos .columnasprof4 .columnadercurso4 .lista4{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+ }
+
+ #Cursos .columnasprof2 .columnadercurso2 a{
+    margin-top: 30px;
+ }
+
+ #Cursos .columnasprof1, .columnasprof2, .columnasprof3, .columnasprof4{
+    display: flex;
+    justify-content: center;
+ }
+ 
+
+#Cursos{
+    text-align: center;
+    padding-top: 100px;
+}
+
+#Cursos .columnasprof1 .columnaizqcurso1 .columnadercurso1{
+    margin-bottom: 100px;
+}
+#Cursos .columnasprof1 .decoracion1 span, .columnasprof2 .decoracion2 span, .columnasprof3 .decoracion3 span, .columnasprof4 .decoracion4 span{
+    
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#Cursos .columnasprof1 .decoracion1, .columnasprof2 .decoracion2, .columnasprof3 .decoracion3, .columnasprof4 .decoracion4{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#Cursos .columnasprof1 .Linea_decoracion1, .columnasprof2 .Linea_decoracion2, .columnasprof3 .Linea_decoracion3, .columnasprof4 .Linea_decoracion4{
+    width: 2px;
+    height: 300px;
+    background-color: black;
+    margin-left: 24px;
+    margin-top: 30px;
+
+}
+
+#Cursos .columnasprof1, .columnasprof2, .columnasprof3, .columnasprof4 {
+    margin-top: 100px;
+    padding-bottom: 60px;
+}
+
+
+/* seccion contactar */
+#Contacto{
+    background-color: rgb(29, 27, 27);
+    height: 300px;  
+    color:darkgoldenrod;
+    text-align: center;
+}
+
+#Contacto .separacion{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#Contacto .columnas3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Contacto .c1 , .c2, .c3{
+    width: 500px;
+}
+
+footer{
+    color:darkgoldenrod;
+    background-color: rgb(29, 27, 27);
+}
+footer .copyright{
+    padding-bottom: 40px;
+    padding-top: 0px;
+}
