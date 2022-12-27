@@ -3,6 +3,7 @@
     background-attachment: fixed;
     color: aliceblue;
 }
+
 header{
     position:fixed;
     width: 100%;
@@ -27,6 +28,78 @@ img.foto{
     width: 150px;
     height: 150px;
 }
+#Trabajos .txttrtabajo{
+    text-align: center;
+    margin: 30px 0px;
+} 
+#Trabajos .habilidades{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+#Trabajos .PruebaHabilidad{
+    width: 350px;
+    height: 250px;
+    background-image: url("prueba.PNG");
+    background-position-x: left;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    transition: 0.3s;
+}
+#Trabajos .PruebaHabilidad:hover{
+    transition: 0.3s;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("prueba.PNG");
+}
+#id1, #id2, #id3{
+    color: white;
+}
+#Trabajos{
+    margin: 50px 0px;
+}
+#Trabajos .LoginestiloNet{
+    background-image: url("Net.PNG");
+    width: 350px;
+    height: 250px;
+    background-repeat: no-repeat !important;
+    background-attachment: scroll !important;
+    background-position: center center !important;
+    z-index: auto;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    transition: 0.3s;
+}
+#Trabajos .LoginestiloNet:hover{
+    transition: 0.3s;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("Net.PNG");
+}
+#Trabajos .Langin_Prueba{
+    background-image: url("landing.PNG");
+    width: 350px;
+    height: 250px;
+    background-repeat: no-repeat !important;
+    background-attachment: scroll !important;
+    background-position: center center !important;
+    z-index: auto;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;  
+}
+#Trabajos .Langin_Prueba:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("landing.PNG");
+}
+
 #acerca_de_mi .columnasinfo{
     display: flex;
 }
@@ -176,7 +249,7 @@ img.foto{
 #Contacto{
     background-color: rgb(29, 27, 27);
     height: 300px;  
-    color:darkgoldenrod;
+    color:white;
     text-align: center;
 }
 
@@ -194,7 +267,7 @@ img.foto{
 }
 
 footer{
-    color:darkgoldenrod;
+    color:white;
     background-color: rgb(29, 27, 27);
 }
 footer .copyright{
