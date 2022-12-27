@@ -16,6 +16,9 @@ src: url('.Fuentes/Sanseriffic.otf');
 body{
     font-family: Sanseriffic;
 }
+#Trabajos .habilidades a{
+    text-decoration: none;
+}
 .inicio{
     padding-bottom: 200px !important;
     text-align: center;
